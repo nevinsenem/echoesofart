@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echoes of Art</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .content-area {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .map-container {
+      flex: 1;
+    }
+    .text-area {
+      flex: 1;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .text-area h3 {
+      margin-top: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+    .text-area p {
+      font-family: Arial, sans-serif;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <h1>Echoes of Art</h1>
+    <div class="logo-line"></div>
+    <h2>Gallery</h2>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+	<div class="footer-column">
+	<h1>Echos of Art</h1>
+  </div>
+  <div class="footer-column">
+    <p><a href= "https://www.khas.edu.tr/en/" target ="_blank">Kadir Has Univerisity, Cibali</a></p>
+  </div>
+  <div class="footer-column">
+    <p><a href="#">Press Inquiries</a></p>
+    <p><a href="#">General Inquiries</a></p>
+    <p><a href="#">About the Gallery</a></p>
+    <p>(0212) 533 65 32</p>
+  </div>
+
+  </div>
+  </footer>
+
+<div class="sidebar">
+    <a href="home.html"><img src="home.png" alt="Home" /><span>Home</span></a>
+    <a href="artists.html"><img src="Artists.png" alt="Artists Icon" /><span>Artists</span></a>
+    <a href="movements.html"><img src="movements.png" alt="Movements Icon" /><span>Movements</span></a>
+    <a href="info.html"><img src="info.png" alt="Info Icon" /><span>Info</span></a>
+</div>
+
+<div>
+    <img src="khas_photo.jpg" alt="Kadir Has University" />
+</div>
+
+<div class="content-area">
+  <div class="map-container">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509424!2d28.963824815319682!3d41.02559847929948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caba3d1d2fddad%3A0x6f88a7a5b8306f3b!2sKadir%20Has%20%C3%9Cniversitesi!5e0!3m2!1sen!2str!4v1697055464579!5m2!1sen!2str" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+  <div class="text-area">
+    <h3>About the Location</h3>
+    <p>Kadir Has University is located in the historic Cibali district, offering a rich blend of modern education and cultural heritage. The university's campus provides a unique environment for learning, creativity, and inspiration.
+      </p>
+      <p>
+        Kadir Has University was founded on the old tobacco factory built during the Ottoman period. The factory operated until the 1980s. In 1992, this factory was purchased by the Rezan Has Foundation and after 5 years of restoration, maintenance and updating, the university started its education life in 1997. 
+      </p>
+      <p>
+        The restoration process preserved much of the site's historical value, transforming it into a vibrant academic and cultural hub. Today, the campus is not only an educational institution but also a testament to the successful blend of historical preservation and modern architecture.
+
+
+      </p>
+      <p>
+        Located near the Golden Horn, the university offers breathtaking views and easy access to Istanbul's rich cultural landmarks, such as the Galata Tower, Suleymaniye Mosque, and the vibrant streets of Balat. Students and visitors can immerse themselves in a unique environment that bridges the past and the future.
+      </p>
+
+    <p>Explore the map to find out more about the surrounding area and its attractions.</p>
+  </div>
+</div>
+
+</body>
+</html>
